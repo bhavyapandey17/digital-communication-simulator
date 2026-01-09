@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+import os
 # Generate time axis
 t = np.linspace(0, 1, 1000)
 
@@ -31,4 +31,5 @@ plt.xlabel("Time")
 plt.ylabel("Amplitude")
 
 plt.tight_layout()
+plt.savefig(os.path.join(os.path.dirname(__file__), "waveforms.png"))
 plt.show()
