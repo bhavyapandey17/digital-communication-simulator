@@ -2,6 +2,9 @@
 
 This project demonstrates basic digital communication concepts using Python.
 
+## Output Waveforms
+![Waveforms](waveforms.png)
+
 ## What it does
 - Generates a digital square-wave signal
 - Adds random noise to simulate a noisy channel
